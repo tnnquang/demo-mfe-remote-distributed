@@ -1,0 +1,23 @@
+{
+  "name": "remote-distributed",
+  "version": "1.0.0",
+  "description": "UmiJS 4.x Remote - Reports, Settings, Audit (Distributed Deployment)",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "start": "max dev"
+  },
+  "dependencies": {
+    "@umijs/max": "^4.0.0",
+    "antd": "^5.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.4.0",
+    "dayjs": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.0"
+  }
+}
