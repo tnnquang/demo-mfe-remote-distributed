@@ -1,11 +1,11 @@
 {
-  "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+  "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
   "pkg": {
     "name": "remote-distributed",
     "version": "1.0.0",
     "description": "UmiJS 4.x Remote - Reports, Settings, Audit (Distributed Deployment)",
     "scripts": {
-      "dev": "max dev",
+      "dev": "set PORT=3003&& max dev",
       "build": "max build",
       "start": "max dev"
     },
@@ -23,40 +23,14 @@
       "typescript": "^5.3.0"
     }
   },
-  "pkgPath": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\package.json",
+  "pkgPath": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\package.json",
   "plugins": {
     "./node_modules/@umijs/core/dist/service/servicePlugin": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "preset",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/core/dist/service/servicePlugin.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/core/dist/service/servicePlugin.js",
       "id": "./node_modules/@umijs/core/dist/service/servicePlugin",
       "key": "servicePlugin",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "@umijs/preset-umi": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "preset",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/index.js",
-      "id": "@umijs/preset-umi",
-      "key": "umi",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 7
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/max/dist/preset": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "preset",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/max/dist/preset.js",
-      "id": "./node_modules/@umijs/max/dist/preset",
-      "key": "preset",
       "config": {},
       "time": {
         "hooks": {},
@@ -64,154 +38,180 @@
       },
       "enableBy": "register"
     },
+    "@umijs/preset-umi": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "preset",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/index.js",
+      "id": "@umijs/preset-umi",
+      "key": "umi",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 87
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/max/dist/preset": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "preset",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/max/dist/preset.js",
+      "id": "./node_modules/@umijs/max/dist/preset",
+      "key": "preset",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 23
+      },
+      "enableBy": "register"
+    },
     "./node_modules/@umijs/preset-umi/dist/registerMethods": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/registerMethods.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/registerMethods.js",
       "id": "./node_modules/@umijs/preset-umi/dist/registerMethods",
       "key": "registerMethods",
       "config": {},
       "time": {
         "hooks": {
           "onStart": [
-            3
+            0
           ]
         },
-        "register": 3
+        "register": 16
       },
       "enableBy": "register"
     },
     "@umijs/did-you-know": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/did-you-know/dist/plugin.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/did-you-know/dist/plugin.js",
       "id": "@umijs/did-you-know",
       "key": "umijsDidYouKnow",
       "config": {},
       "time": {
         "hooks": {
           "onStart": [
-            3
+            7
           ]
         },
-        "register": 3
+        "register": 16
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/404/404": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/404/404.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/404/404.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/404/404",
       "key": "404",
       "config": {},
       "time": {
         "hooks": {
           "modifyRoutes": [
-            1
+            0
           ]
         },
-        "register": 0
+        "register": 3
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev",
       "key": "aiDev",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/appData/appData": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/appData/appData.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/appData/appData.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/appData/appData",
       "key": "appData",
       "config": {},
       "time": {
         "hooks": {
           "modifyAppData": [
-            5
+            43
           ]
         },
-        "register": 22
+        "register": 81
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/appData/umiInfo": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/appData/umiInfo",
       "key": "umiInfo",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 2
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/check/check": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/check/check.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/check/check.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/check/check",
       "key": "check",
       "config": {},
       "time": {
         "hooks": {
           "onCheckConfig": [
-            1
+            0
           ],
           "onCheck": [
             1
           ]
         },
-        "register": 2
+        "register": 5
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/check/babel722": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/check/babel722.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/check/babel722.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/check/babel722",
       "key": "babel722",
       "config": {},
       "time": {
         "hooks": {
           "onCheck": [
-            0
+            1
           ]
         },
-        "register": 0
+        "register": 3
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting",
       "key": "codeSplitting",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins",
       "key": "configPlugins",
       "config": {},
@@ -221,7 +221,7 @@
             0
           ]
         },
-        "register": 9
+        "register": 35
       },
       "enableBy": "register"
     },
@@ -1051,10 +1051,10 @@
       "config": {
         "default": {
           "umi": "@@/exports",
-          "react": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\react",
-          "react-dom": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\react-dom",
-          "react-router": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\react-router",
-          "react-router-dom": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\react-router-dom"
+          "react": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\react",
+          "react-dom": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\react-dom",
+          "react-router": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\react-router",
+          "react-router-dom": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\react-router-dom"
         }
       },
       "type": "plugin",
@@ -1065,22 +1065,22 @@
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin",
       "key": "crossorigin",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand",
       "key": "depsOnDemand",
       "config": {},
@@ -1090,66 +1090,66 @@
             1
           ]
         },
-        "register": 1
+        "register": 5
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/devTool/devTool": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/devTool/devTool.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/devTool/devTool.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/devTool/devTool",
       "key": "devTool",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 5
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker",
       "key": "esbuildHelperChecker",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 87
+        "register": 298
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/esmi/esmi": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/esmi/esmi.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/esmi/esmi.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/esmi/esmi",
       "key": "esmi",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 37
+        "register": 227
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic",
       "key": "exportStatic",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 23
+        "register": 111
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/favicons/favicons": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/favicons/favicons.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/favicons/favicons.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/favicons/favicons",
       "key": "favicons",
       "config": {},
@@ -1159,379 +1159,379 @@
             0
           ]
         },
-        "register": 1
+        "register": 3
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/helmet/helmet": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/helmet/helmet.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/helmet/helmet.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/helmet/helmet",
       "key": "helmet",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 5
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/icons/icons": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/icons/icons.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/icons/icons.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/icons/icons",
       "key": "icons",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 17
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/mock/mock": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/mock/mock",
       "key": "mock",
       "config": {},
       "time": {
         "hooks": {
           "onStart": [
-            2
+            4
           ]
         },
-        "register": 33
+        "register": 133
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/mpa/mpa": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/mpa/mpa.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/mpa/mpa.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/mpa/mpa",
       "key": "mpa",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 8
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/okam/okam": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/okam/okam",
       "key": "okam",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/overrides/overrides": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/overrides/overrides.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/overrides/overrides.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/overrides/overrides",
       "key": "overrides",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency",
       "key": "phantomDependency",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 30
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill",
       "key": "polyfill",
       "config": {},
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
+            2
           ]
         },
-        "register": 2
+        "register": 17
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill",
       "key": "publicPathPolyfill",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 7
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/prepare/prepare": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/prepare/prepare.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/prepare/prepare.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/prepare/prepare",
       "key": "prepare",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 17
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch",
       "key": "routePrefetch",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 4
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise",
       "key": "stagewise",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 19
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/terminal/terminal": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/terminal/terminal.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/terminal/terminal.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/terminal/terminal",
       "key": "terminal",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 10
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles",
       "key": "tmpFiles",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 78
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader",
       "key": "clientLoader",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 13
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps",
       "key": "routeProps",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 4
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/ssr/ssr": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/ssr/ssr.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/ssr/ssr.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/ssr/ssr",
       "key": "ssr",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 46
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes",
       "key": "configTypes",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 22
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/transform/transform": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/transform/transform.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/transform/transform.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/transform/transform",
       "key": "transform",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 18
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport",
       "key": "lowImport",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 33
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/vite/vite": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/vite/vite.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/vite/vite.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/vite/vite",
       "key": "vite",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 5
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute",
       "key": "apiRoute",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 57
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/monorepo/redirect": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/monorepo/redirect",
       "key": "monorepoRedirect",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 25
+        "register": 240
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/test/test": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/test/test.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/test/test.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/test/test",
       "key": "test",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 8
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent",
       "key": "clickToComponent",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 7
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/legacy/legacy": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/legacy/legacy.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/legacy/legacy.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/legacy/legacy",
       "key": "legacy",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 6
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose",
       "key": "classPropertiesLoose",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 8
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/webpack/webpack": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/webpack/webpack",
       "key": "preset-umi:webpack",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 15
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/swc/swc": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/swc/swc.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/swc/swc.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/swc/swc",
       "key": "swc",
       "config": {},
@@ -1541,103 +1541,184 @@
             0
           ]
         },
-        "register": 1
+        "register": 8
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/features/ui/ui": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/ui/ui",
       "key": "ui",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 20
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/mako/mako": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/mako/mako.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/mako/mako.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/mako/mako",
       "key": "mako",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 5
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack",
       "key": "utoopack",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 6
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian",
       "key": "hmrGuardian",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 28
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad",
       "key": "routePreloadOnLoad",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 31
+        "register": 339
       }
     },
     "./node_modules/@umijs/preset-umi/dist/features/forget/forget": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/forget/forget.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/forget/forget.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/forget/forget",
       "key": "forget",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 7
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/preset-umi/dist/features/bundler/bundler": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/features/bundler/bundler.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/features/bundler/bundler.js",
       "id": "./node_modules/@umijs/preset-umi/dist/features/bundler/bundler",
       "key": "preset-umi:bundler",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 7
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/commands/build": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/build.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/build.js",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/build",
       "key": "build",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 57
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/config/config": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/config/config.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/config/config",
+      "key": "config",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 170
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/dev/dev": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/dev/dev",
+      "key": "dev",
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            76
+          ]
+        },
+        "register": 208
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/help": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/help.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/help",
+      "key": "help",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/lint": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/lint.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/lint",
+      "key": "lint",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/setup": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/setup.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/setup",
+      "key": "setup",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/deadcode": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/deadcode.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/deadcode",
+      "key": "deadcode",
       "config": {},
       "time": {
         "hooks": {},
@@ -1645,301 +1726,38 @@
       },
       "enableBy": "register"
     },
-    "./node_modules/@umijs/preset-umi/dist/commands/config/config": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/config/config.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/config/config",
-      "key": "config",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 35
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/dev/dev": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/dev/dev",
-      "key": "dev",
-      "config": {},
-      "time": {
-        "hooks": {
-          "modifyAppData": [
-            22
-          ]
-        },
-        "register": 28
-      }
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/help": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/help.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/help",
-      "key": "help",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/lint": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/lint.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/lint",
-      "key": "lint",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/setup": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/setup.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/setup",
-      "key": "setup",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/deadcode": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/deadcode.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/deadcode",
-      "key": "deadcode",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register"
-    },
     "./node_modules/@umijs/preset-umi/dist/commands/version": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/version.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/version.js",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/version",
       "key": "version",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 7
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/commands/generators/page": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/page.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/page.js",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/page",
       "key": "generator:page",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 9
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/preset-umi/dist/commands/generators/prettier": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/prettier.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/prettier.js",
       "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/prettier",
       "key": "generator:prettier",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 2
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig",
-      "key": "generator:tsconfig",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/generators/jest": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/jest.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/jest",
-      "key": "generator:jest",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss",
-      "key": "generator:tailwindcss",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/generators/dva": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/dva.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/dva",
-      "key": "generator:dva",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/generators/component": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/component.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/component",
-      "key": "generator:component",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/generators/mock": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/mock.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/mock",
-      "key": "generator:mock",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/generators/cypress": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/cypress.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/cypress",
-      "key": "generator:cypress",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/generators/api": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/api.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/api",
-      "key": "generator:api",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/generators/precommit": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/precommit.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/precommit",
-      "key": "generator:precommit",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/plugin": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/plugin.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/plugin",
-      "key": "command:plugin",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/verify-commit": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/verify-commit.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/verify-commit",
-      "key": "verifyCommit",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/preview": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/preview.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/preview",
-      "key": "preview",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 27
-      },
-      "enableBy": "register"
-    },
-    "./node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu.js",
-      "id": "./node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu",
-      "key": "mfsu-cli",
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register"
-    },
-    "@umijs/plugin-run": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
-      "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugin-run/dist/index.js",
-      "id": "@umijs/plugin-run",
-      "key": "run",
       "config": {},
       "time": {
         "hooks": {},
@@ -1947,23 +1765,205 @@
       },
       "enableBy": "register"
     },
-    "./node_modules/@umijs/plugins/dist/access": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/access.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig",
+      "key": "generator:tsconfig",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 4
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/jest": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/jest.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/jest",
+      "key": "generator:jest",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 4
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss",
+      "key": "generator:tailwindcss",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 4
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/dva": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/dva.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/dva",
+      "key": "generator:dva",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 5
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/component": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/component.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/component",
+      "key": "generator:component",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 4
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/mock": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/mock.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/mock",
+      "key": "generator:mock",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/cypress": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/cypress.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/cypress",
+      "key": "generator:cypress",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 4
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/api": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/api.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/api",
+      "key": "generator:api",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/precommit": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/generators/precommit.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/precommit",
+      "key": "generator:precommit",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/plugin": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/plugin.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/plugin",
+      "key": "command:plugin",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/verify-commit": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/verify-commit.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/verify-commit",
+      "key": "verifyCommit",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 4
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/preview": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/preview.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/preview",
+      "key": "preview",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 117
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu",
+      "key": "mfsu-cli",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 4
+      },
+      "enableBy": "register"
+    },
+    "@umijs/plugin-run": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugin-run/dist/index.js",
+      "id": "@umijs/plugin-run",
+      "key": "run",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 12
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/plugins/dist/access": {
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
+      "type": "plugin",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/access.js",
       "id": "./node_modules/@umijs/plugins/dist/access",
       "key": "access",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 6
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/analytics": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/analytics.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/analytics.js",
       "id": "./node_modules/@umijs/plugins/dist/analytics",
       "key": "analytics",
       "config": {
@@ -1971,20 +1971,20 @@
       },
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 4
       }
     },
     "./node_modules/@umijs/plugins/dist/antd": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/antd.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/antd.js",
       "id": "./node_modules/@umijs/plugins/dist/antd",
       "key": "antd",
       "config": {},
       "time": {
         "hooks": {
           "modifyConfig": [
-            1
+            6
           ],
           "modifyAppData": [
             0
@@ -1993,39 +1993,39 @@
             0
           ]
         },
-        "register": 8
+        "register": 31
       }
     },
     "./node_modules/@umijs/plugins/dist/dva": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/dva.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/dva.js",
       "id": "./node_modules/@umijs/plugins/dist/dva",
       "key": "dva",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 28
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/initial-state": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/initial-state.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/initial-state.js",
       "id": "./node_modules/@umijs/plugins/dist/initial-state",
       "key": "initialState",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 3
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/layout": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/layout.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/layout.js",
       "id": "./node_modules/@umijs/plugins/dist/layout",
       "key": "layout",
       "config": {
@@ -2033,172 +2033,172 @@
       },
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 12
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/locale": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/locale.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/locale.js",
       "id": "./node_modules/@umijs/plugins/dist/locale",
       "key": "locale",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 11
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/mf": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/mf.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/mf.js",
       "id": "./node_modules/@umijs/plugins/dist/mf",
       "key": "mf",
       "config": {},
       "time": {
         "hooks": {
           "modifyDefaultConfig": [
-            1
+            18
           ]
         },
-        "register": 2
+        "register": 8
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/model": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/model.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/model.js",
       "id": "./node_modules/@umijs/plugins/dist/model",
       "key": "model",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 7
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/moment2dayjs": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/moment2dayjs.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/moment2dayjs.js",
       "id": "./node_modules/@umijs/plugins/dist/moment2dayjs",
       "key": "moment2dayjs",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 3
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/qiankun": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/qiankun.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/qiankun.js",
       "id": "./node_modules/@umijs/plugins/dist/qiankun",
       "key": "qiankun",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 4
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/plugins/dist/qiankun/master": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/qiankun/master.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/qiankun/master.js",
       "id": "./node_modules/@umijs/plugins/dist/qiankun/master",
       "key": "qiankun-master",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 7
       }
     },
     "./node_modules/@umijs/plugins/dist/qiankun/slave": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/qiankun/slave.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/qiankun/slave.js",
       "id": "./node_modules/@umijs/plugins/dist/qiankun/slave",
       "key": "qiankun-slave",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 6
       }
     },
     "./node_modules/@umijs/plugins/dist/react-query": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/react-query.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/react-query.js",
       "id": "./node_modules/@umijs/plugins/dist/react-query",
       "key": "reactQuery",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/request": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/request.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/request.js",
       "id": "./node_modules/@umijs/plugins/dist/request",
       "key": "request",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/styled-components": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/styled-components.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/styled-components.js",
       "id": "./node_modules/@umijs/plugins/dist/styled-components",
       "key": "styledComponents",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 5
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/tailwindcss": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/tailwindcss.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/tailwindcss.js",
       "id": "./node_modules/@umijs/plugins/dist/tailwindcss",
       "key": "tailwindcss",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 3
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/plugins/dist/valtio": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/plugins/dist/valtio.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/plugins/dist/valtio.js",
       "id": "./node_modules/@umijs/plugins/dist/valtio",
       "key": "valtio",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 4
       },
       "enableBy": "config"
     },
     "./node_modules/@umijs/max/dist/plugins/maxAlias": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/max/dist/plugins/maxAlias.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/max/dist/plugins/maxAlias.js",
       "id": "./node_modules/@umijs/max/dist/plugins/maxAlias",
       "key": "maxAlias",
       "config": {},
@@ -2208,14 +2208,14 @@
             0
           ]
         },
-        "register": 0
+        "register": 2
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/max/dist/plugins/maxAppData": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/max/dist/plugins/maxAppData.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/max/dist/plugins/maxAppData.js",
       "id": "./node_modules/@umijs/max/dist/plugins/maxAppData",
       "key": "maxAppData",
       "config": {},
@@ -2225,14 +2225,14 @@
             0
           ]
         },
-        "register": 1
+        "register": 2
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/max/dist/plugins/maxChecker": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/max/dist/plugins/maxChecker.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/max/dist/plugins/maxChecker.js",
       "id": "./node_modules/@umijs/max/dist/plugins/maxChecker",
       "key": "maxChecker",
       "config": {},
@@ -2242,20 +2242,20 @@
             0
           ]
         },
-        "register": 0
+        "register": 2
       },
       "enableBy": "register"
     },
     "./node_modules/@umijs/core/dist/service/generatePlugin": {
-      "cwd": "C:\\Project\\personal\\mfe-demo\\remote-distributed",
+      "cwd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed",
       "type": "plugin",
-      "path": "C:/Project/personal/mfe-demo/remote-distributed/node_modules/@umijs/core/dist/service/generatePlugin.js",
+      "path": "D:/Project/mfe-demo/demo-mfe-remote-distributed/node_modules/@umijs/core/dist/service/generatePlugin.js",
       "id": "./node_modules/@umijs/core/dist/service/generatePlugin",
       "key": "generatePlugin",
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "register"
     }
@@ -2270,7 +2270,7 @@
     "model": {},
     "mfsu": false,
     "alias": {
-      "@shared": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\shared"
+      "@shared": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\shared"
     },
     "mf": {
       "name": "remote3",
@@ -2279,9 +2279,11 @@
         "name": "remote3"
       },
       "exposes": {
-        "./ReportViewer": "./src/components/ReportViewer",
-        "./SettingsPanel": "./src/components/SettingsPanel",
-        "./AuditLog": "./src/components/AuditLog"
+        "./ReportViewer": "./src/exposes/ReportViewer",
+        "./SettingsPanel": "./src/exposes/SettingsPanel",
+        "./AuditLog": "./src/exposes/AuditLog",
+        "./ReportBuilder": "./src/exposes/ReportBuilder",
+        "./CommunicationDemo": "./src/exposes/CommunicationDemo"
       },
       "shared": {
         "react": {
@@ -2302,13 +2304,33 @@
       {
         "path": "/",
         "component": "./index"
+      },
+      {
+        "path": "/reports",
+        "component": "./reports"
+      },
+      {
+        "path": "/reports/new",
+        "component": "./reports/new"
+      },
+      {
+        "path": "/settings",
+        "component": "./settings"
+      },
+      {
+        "path": "/audit",
+        "component": "./audit"
+      },
+      {
+        "path": "/demo",
+        "component": "./demo"
       }
     ],
     "npmClient": "yarn",
     "hash": true,
     "publicPath": "/"
   },
-  "mainConfigFile": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\.umirc.ts",
+  "mainConfigFile": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\.umirc.ts",
   "config": {
     "routeLoader": {
       "moduleType": "esm"
@@ -2326,15 +2348,15 @@
     "autoCSSModules": true,
     "alias": {
       "umi": "@@/exports",
-      "react": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\react",
-      "react-dom": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\react-dom",
-      "react-router": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\react-router",
-      "react-router-dom": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\react-router-dom",
-      "@shared": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\shared",
-      "@": "C:/Project/personal/mfe-demo/remote-distributed/src",
-      "@@": "C:/Project/personal/mfe-demo/remote-distributed/src/.umi",
-      "regenerator-runtime": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\regenerator-runtime",
-      "antd": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\antd",
+      "react": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\react",
+      "react-dom": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\react-dom",
+      "react-router": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\react-router",
+      "react-router-dom": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\react-router-dom",
+      "@shared": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\shared",
+      "@": "D:/Project/mfe-demo/demo-mfe-remote-distributed/src",
+      "@@": "D:/Project/mfe-demo/demo-mfe-remote-distributed/src/.umi",
+      "regenerator-runtime": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\regenerator-runtime",
+      "antd": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\antd",
       "@umijs/max": "@@/exports"
     },
     "antd": {},
@@ -2346,9 +2368,11 @@
         "name": "remote3"
       },
       "exposes": {
-        "./ReportViewer": "./src/components/ReportViewer",
-        "./SettingsPanel": "./src/components/SettingsPanel",
-        "./AuditLog": "./src/components/AuditLog"
+        "./ReportViewer": "./src/exposes/ReportViewer",
+        "./SettingsPanel": "./src/exposes/SettingsPanel",
+        "./AuditLog": "./src/exposes/AuditLog",
+        "./ReportBuilder": "./src/exposes/ReportBuilder",
+        "./CommunicationDemo": "./src/exposes/CommunicationDemo"
       },
       "shared": {
         "react": {
@@ -2369,6 +2393,26 @@
       {
         "path": "/",
         "component": "./index"
+      },
+      {
+        "path": "/reports",
+        "component": "./reports"
+      },
+      {
+        "path": "/reports/new",
+        "component": "./reports/new"
+      },
+      {
+        "path": "/settings",
+        "component": "./settings"
+      },
+      {
+        "path": "/audit",
+        "component": "./audit"
+      },
+      {
+        "path": "/demo",
+        "component": "./demo"
       }
     ],
     "npmClient": "yarn",
@@ -3298,7 +3342,52 @@
       "absPath": "/",
       "__content": "import React from 'react';\r\nimport { Typography, Card } from 'antd';\r\n\r\nconst { Title, Paragraph } = Typography;\r\n\r\nconst IndexPage: React.FC = () => {\r\n    return (\r\n        <div style={{ padding: 24 }}>\r\n            <Title level={2}>Remote 3 - Distributed (UmiJS 4.x)</Title>\r\n            <Paragraph>\r\n                Ứng dụng này được thiết kế để triển khai phân tán (Vercel/Netlify).\r\n            </Paragraph>\r\n\r\n            <Card style={{ marginTop: 24 }}>\r\n                <Title level={4}>Exposed Components:</Title>\r\n                <ul>\r\n                    <li><code>ReportViewer</code> - Xem và xuất báo cáo</li>\r\n                    <li><code>SettingsPanel</code> - Cài đặt hệ thống</li>\r\n                    <li><code>AuditLog</code> - Nhật ký hoạt động</li>\r\n                </ul>\r\n            </Card>\r\n\r\n            <Card style={{ marginTop: 16 }}>\r\n                <Title level={4}>Thông tin:</Title>\r\n                <ul>\r\n                    <li><strong>Framework:</strong> UmiJS 4.x (@umijs/max)</li>\r\n                    <li><strong>Port (Dev):</strong> 3003</li>\r\n                    <li><strong>Deployment:</strong> Vercel / Netlify</li>\r\n                    <li><strong>Entry:</strong> /remote.js</li>\r\n                </ul>\r\n            </Card>\r\n        </div>\r\n    );\r\n};\r\n\r\nexport default IndexPage;\r\n",
       "__isJSFile": true,
-      "__absFile": "C:/Project/personal/mfe-demo/remote-distributed/src/pages/index.tsx"
+      "__absFile": "D:/Project/mfe-demo/demo-mfe-remote-distributed/src/pages/index.tsx"
+    },
+    "2": {
+      "path": "/reports",
+      "file": "@/pages/reports.tsx",
+      "id": "2",
+      "absPath": "/reports",
+      "__content": "/**\r\n * Reports Page\r\n */\r\nimport React from 'react';\r\nimport ReportViewer from '@/components/ReportViewer';\r\n\r\nconst ReportsPage: React.FC = () => {\r\n    return <ReportViewer />;\r\n};\r\n\r\nexport default ReportsPage;\r\n",
+      "__isJSFile": true,
+      "__absFile": "D:/Project/mfe-demo/demo-mfe-remote-distributed/src/pages/reports.tsx"
+    },
+    "3": {
+      "path": "/reports/new",
+      "file": "@/pages/reports/new.tsx",
+      "id": "3",
+      "absPath": "/reports/new",
+      "__content": "/**\r\n * New Report Page\r\n */\r\nimport React from 'react';\r\nimport ReportBuilder from '@/components/ReportBuilder';\r\n\r\nconst NewReportPage: React.FC = () => {\r\n    return <ReportBuilder />;\r\n};\r\n\r\nexport default NewReportPage;\r\n",
+      "__isJSFile": true,
+      "__absFile": "D:/Project/mfe-demo/demo-mfe-remote-distributed/src/pages/reports/new.tsx"
+    },
+    "4": {
+      "path": "/settings",
+      "file": "@/pages/settings.tsx",
+      "id": "4",
+      "absPath": "/settings",
+      "__content": "/**\r\n * Settings Page\r\n */\r\nimport React from 'react';\r\nimport SettingsPanel from '@/components/SettingsPanel';\r\n\r\nconst SettingsPage: React.FC = () => {\r\n    return <SettingsPanel />;\r\n};\r\n\r\nexport default SettingsPage;\r\n",
+      "__isJSFile": true,
+      "__absFile": "D:/Project/mfe-demo/demo-mfe-remote-distributed/src/pages/settings.tsx"
+    },
+    "5": {
+      "path": "/audit",
+      "file": "@/pages/audit.tsx",
+      "id": "5",
+      "absPath": "/audit",
+      "__content": "/**\r\n * Audit Log Page\r\n */\r\nimport React from 'react';\r\nimport AuditLog from '@/components/AuditLog';\r\n\r\nconst AuditPage: React.FC = () => {\r\n    return <AuditLog />;\r\n};\r\n\r\nexport default AuditPage;\r\n",
+      "__isJSFile": true,
+      "__absFile": "D:/Project/mfe-demo/demo-mfe-remote-distributed/src/pages/audit.tsx"
+    },
+    "6": {
+      "path": "/demo",
+      "file": "@/pages/demo.tsx",
+      "id": "6",
+      "absPath": "/demo",
+      "__content": "/**\r\n * Communication Demo Page\r\n */\r\nimport React from 'react';\r\nimport CommunicationDemo from '@/components/CommunicationDemo';\r\n\r\nconst DemoPage: React.FC = () => {\r\n    return <CommunicationDemo />;\r\n};\r\n\r\nexport default DemoPage;\r\n",
+      "__isJSFile": true,
+      "__absFile": "D:/Project/mfe-demo/demo-mfe-remote-distributed/src/pages/demo.tsx"
     }
   },
   "apiRoutes": {},
@@ -3315,11 +3404,11 @@
   },
   "react": {
     "version": "18.3.1",
-    "path": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\react"
+    "path": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\react"
   },
   "react-dom": {
     "version": "18.3.1",
-    "path": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\react-dom"
+    "path": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\react-dom"
   },
   "appJS": null,
   "locale": "en-US",
@@ -3327,17 +3416,20 @@
   "globalJS": [],
   "overridesCSS": [],
   "bundler": "webpack",
+  "git": {
+    "originUrl": "https://github.com/tnnquang/demo-mfe-remote-distributed.git"
+  },
   "framework": "react",
   "typescript": {
     "tsVersion": "5.9.3",
     "tslibVersion": "2.8.1"
   },
   "faviconFiles": [],
-  "port": 8001,
+  "port": 3004,
   "host": "0.0.0.0",
-  "ip": "192.168.1.2",
+  "ip": "192.168.68.133",
   "antd": {
-    "pkgPath": "C:\\Project\\personal\\mfe-demo\\remote-distributed\\node_modules\\antd",
+    "pkgPath": "D:\\Project\\mfe-demo\\demo-mfe-remote-distributed\\node_modules\\antd",
     "version": "5.29.1"
   }
 }

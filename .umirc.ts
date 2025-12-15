@@ -15,12 +15,13 @@ export default defineConfig({
     mf: {
         name: 'remote3',
         library: { type: 'var', name: 'remote3' },
+        // UmiJS 4.x expects src/exposes/ComponentName/index convention
         exposes: {
-            './ReportViewer': './src/components/ReportViewer',
-            './SettingsPanel': './src/components/SettingsPanel',
-            './AuditLog': './src/components/AuditLog',
-            './ReportBuilder': './src/components/ReportBuilder',
-            './CommunicationDemo': './src/components/CommunicationDemo',
+            './ReportViewer': './src/exposes/ReportViewer',
+            './SettingsPanel': './src/exposes/SettingsPanel',
+            './AuditLog': './src/exposes/AuditLog',
+            './ReportBuilder': './src/exposes/ReportBuilder',
+            './CommunicationDemo': './src/exposes/CommunicationDemo',
         },
         shared: {
             react: { singleton: true },
@@ -44,4 +45,10 @@ export default defineConfig({
     // Build output for static hosting (Vercel/Netlify)
     hash: true,
     publicPath: '/',
+
+    // Dev server port
+    devServer: {
+        port: 3003,
+    },
 });
+

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "UmiJS 4.x Remote - Reports, Settings, Audit (Distributed Deployment)",
   "scripts": {
-    "dev": "max dev",
+    "dev": "set PORT=3003&& max dev",
     "build": "max build",
     "start": "max dev"
   },
