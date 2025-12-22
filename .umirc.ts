@@ -18,9 +18,9 @@ export default defineConfig({
         library: { type: 'var', name: 'remote3' },
         // UmiJS 4.x requires exposes to point to folder with index.tsx
         exposes: {
-            './ReportRouter': './src/exposes/ReportRouter',    // Router for /reports/*
-            './SettingsRouter': './src/exposes/SettingsRouter', // Router for /settings/*
-            './AuditRouter': './src/exposes/AuditRouter',       // Router for /audit/*
+            // Main entry point - accepts basename prop for routing
+            './App': './src/exposes/App',
+            // Individual components (for direct usage if needed)
             './ReportViewer': './src/exposes/ReportViewer',
             './SettingsPanel': './src/exposes/SettingsPanel',
             './AuditLog': './src/exposes/AuditLog',
