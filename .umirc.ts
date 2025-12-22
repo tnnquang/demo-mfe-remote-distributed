@@ -4,7 +4,8 @@ import path from 'path';
 export default defineConfig({
     antd: {},
     model: {},
-    mfsu: false, // Disable MFSU to prevent conflict with Module Federation
+    // MFSU must be disabled for Remotes to avoid conflict with Module Federation
+    mfsu: false,
 
     // Alias for @shared
     alias: {
@@ -15,12 +16,16 @@ export default defineConfig({
     mf: {
         name: 'remote3',
         library: { type: 'var', name: 'remote3' },
+        // UmiJS 4.x requires exposes to point to folder with index.tsx
         exposes: {
-            './ReportViewer': './src/components/ReportViewer',
-            './SettingsPanel': './src/components/SettingsPanel',
-            './AuditLog': './src/components/AuditLog',
-            './ReportBuilder': './src/components/ReportBuilder',
-            './CommunicationDemo': './src/components/CommunicationDemo',
+            './ReportRouter': './src/exposes/ReportRouter',    // Router for /reports/*
+            './SettingsRouter': './src/exposes/SettingsRouter', // Router for /settings/*
+            './AuditRouter': './src/exposes/AuditRouter',       // Router for /audit/*
+            './ReportViewer': './src/exposes/ReportViewer',
+            './SettingsPanel': './src/exposes/SettingsPanel',
+            './AuditLog': './src/exposes/AuditLog',
+            './ReportBuilder': './src/exposes/ReportBuilder',
+            './CommunicationDemo': './src/exposes/CommunicationDemo',
         },
         shared: {
             react: { singleton: true },

@@ -4,11 +4,16 @@
 import React from 'react';
 
 export async function getRoutes() {
-  const routes = {"1":{"path":"/","id":"1"}} as const;
+  const routes = {"1":{"path":"/","id":"1"},"2":{"path":"/reports","id":"2"},"3":{"path":"/reports/new","id":"3"},"4":{"path":"/settings","id":"4"},"5":{"path":"/audit","id":"5"},"6":{"path":"/demo","id":"6"}} as const;
   return {
     routes,
     routeComponents: {
 '1': React.lazy(() => import(/* webpackChunkName: "p__index" */'@/pages/index.tsx')),
+'2': React.lazy(() => import(/* webpackChunkName: "p__reports" */'@/pages/reports.tsx')),
+'3': React.lazy(() => import(/* webpackChunkName: "p__reports__new" */'@/pages/reports/new.tsx')),
+'4': React.lazy(() => import(/* webpackChunkName: "p__settings" */'@/pages/settings.tsx')),
+'5': React.lazy(() => import(/* webpackChunkName: "p__audit" */'@/pages/audit.tsx')),
+'6': React.lazy(() => import(/* webpackChunkName: "p__demo" */'@/pages/demo.tsx')),
 },
   };
 }
