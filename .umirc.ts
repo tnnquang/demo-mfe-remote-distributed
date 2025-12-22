@@ -47,6 +47,7 @@ export default defineConfig({
     npmClient: 'yarn',
 
     // Build output for static hosting (Vercel/Netlify)
+    esbuildMinifyIIFE: true, // Fix esbuild helper conflicts
     hash: true,
     publicPath: '/',
 });
